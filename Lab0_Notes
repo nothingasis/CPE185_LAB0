@@ -1,0 +1,22 @@
+Lab 0 Aruduino:
+
+Part 1:
+
+The input voltage to the circuit: MAX 4.52V MIN: 20.7mV 
+The max voltage is from 1.146V - (-3.432)
+**Had a huge problem with compatibility... ANALOG discovery was being super picky with what computer
+found out it was a power issue on the usb ports **
+
+When we moved the solid orange(Positive on channel 1) to the anode side of the LED
+    MIN: .16V   MAX: .22V
+
+Page 16:
+    MAX: 1.125V AVG: 1.128V
+    MIN: 1.339V AVG: 3.01V
+    Frequency: 666Hz
+
+Orange LEAD to ANODE:
+    MAX: 2.66mV AVG: 2.66mV
+    MIN: 1.339mV AVG: 1.339mV
+    Frequency: 0Hz
+
