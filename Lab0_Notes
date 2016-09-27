@@ -20,3 +20,10 @@ Orange LEAD to ANODE:
     MIN: 1.339mV AVG: 1.339mV
     Frequency: 0Hz
 
+Push Button Circuit:
+    We were able to follow a circuit diagram to get the push button started
+    Now just trying to figure out how to tie it to PIN13.
+    got it to work see code and images
+
+
+
