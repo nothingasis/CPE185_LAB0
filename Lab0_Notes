@@ -22,8 +22,37 @@ Orange LEAD to ANODE:
 
 Push Button Circuit:
     We were able to follow a circuit diagram to get the push button started
-    Now just trying to figure out how to tie it to PIN13.
+    Now just trying to figure out ho tie it to PIN13.
     got it to work see code and images
+
+Part 2:
+    Arbitrary Wave Generator:
+        Made the connections and got a sin wave.
+        The only thing to question is why our sine wave has a vertical offset of -0.1.
+            Fixed the offset issue. For whatever reason we were given an offset of 1V but had to change it to a 
+            1.2V offset. This was seen as well when we did a serial plotter.
+
+    analogRead():
+        Wave1 and Channel 1 (positive) on a single rail and we took another wire
+        from the same rail and fed it into the receiving end of the arduino.
+        That gets passed into analogRead() where the value is stored in sensorvalue.
+        It then gets read out via serial with a delay of 1ms.
+
+        Got it work, when we tried to slow it down, it would skip numbers. Seems like th reason for this
+        is because the delay only delays what we have running but the actual iteration of 0 to 1023
+        continues to run even with the delays. Hence they are not connected with each other.
+    
+    Serial Plotter:
+        Initially with a 1V offset we were getting the bottom fo our waveform cutoff.
+        After we changed the offset to 1.2V we were getting the full wave without any cutoff.
+
+    Play with another wave type in AWG:
+        We played with a sin wave(default) and we changed it to a square wave.
+        We got a clean signal. But did see "white noise" at the top and bottom of square wave.
+        
+
+
+
 
 
 
