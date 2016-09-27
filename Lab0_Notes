@@ -55,9 +55,11 @@ Part 3:
         We had to spend some time figuring out what the pwm essential is.
         But we learned by reading through the lab that it's a simple conversion from
         digital to analog.
-
+Part 4:
     Practical Exercise:
         Connected the photoresistor and the led to the analog and pwm pins respectively.
+
+        Having trouble wit this
 
 
 
