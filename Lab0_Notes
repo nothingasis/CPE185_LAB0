@@ -49,7 +49,16 @@ Part 2:
     Play with another wave type in AWG:
         We played with a sin wave(default) and we changed it to a square wave.
         We got a clean signal. But did see "white noise" at the top and bottom of square wave.
-        
+Part 3:
+    AnalogInOutSerial:
+        We finished the PWm portion of the lab.
+        We had to spend some time figuring out what the pwm essential is.
+        But we learned by reading through the lab that it's a simple conversion from
+        digital to analog.
+
+    Practical Exercise:
+        Connected the photoresistor and the led to the analog and pwm pins respectively.
+
 
 
 
